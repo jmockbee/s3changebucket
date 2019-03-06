@@ -1,0 +1,10 @@
+---
+Resources:
+  MyS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      AccessControl: PublicRead
+      # gives public access to bucket 
+      BucketName: "now-the-bucket-will-be-replaced" 
+      #bucket has to be replaced due to name change will lose data
+
